@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5g0124/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0124/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞真上清青要紫書金根眾經
+  date: '2015-08-29 02:58:12.668309'
+  source:
+    repository: kanripo
+    path: KR5g0124
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0124_000-CK-KZ.yaml, hash: 'sha256:455fa725dbf2c2466ea5c4817a0ca8be8dfd4a5b704f68e41c1cfe5eddf53c87'}
+  - {seq: 1, filename: KR5g0124_001-CK-KZ.yaml, hash: 'sha256:796387785a6a17cc09fe8fa0fab8e87c7062ac3c51621c1cdd6939dce4e44052'}
+  - {seq: 2, filename: KR5g0124_002-CK-KZ.yaml, hash: 'sha256:967fe5abb1ab746c873ba05ac5e429c51e1515a68a1f5d223bd2a6368e97d105'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5g0124_001-CK-KZ.markers.yaml, hash: 'sha256:dade169964b47ad40b594f1fa853d8f72ab093bca64712ec8abe62adc758a7c5'}
+  - {seq: 2, role: markers, filename: assets/KR5g0124_002-CK-KZ.markers.yaml, hash: 'sha256:ec56d69489f99cfad446b5660c9e9f36ef05d91d60f33958cff7fddf1327c620'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5g0124_CK-KZ_01p037a
+    span:
+    - body
+    - 0
+    - 6181
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5g0124_CK-KZ_01p055a
+    span:
+    - body
+    - 0
+    - 6423
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:ead4e7f59f7960de515f2bb041ba5f8f395b1f8f4e1d20d376b22a3a0bb39183
